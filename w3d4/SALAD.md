@@ -1,0 +1,20 @@
+ENCRYPTION / HASHING
+
+ENCRYPTION: WE SCRAMBLE A VALUE, BUT IS UNSCRAMBABLE ?!
+HASHING: WE SCRAMBLE A VALUE, BUT WE NEVER KNOW THE ORIGINAL AFTER
+
+Hello => 12 => Igmnp => Hello
+
+HAL => 1 => IBM
+
+chicken => 10asko => 103oi231niq1nwio
+
+chicken => 10asko => 103oi231niq1nwio
+
+$2a$10$9RZF8dtbRe2KAcu7bnWeEe WcIhq0YmIFJM8dJq1Z.BkEvBly.N1mW
+$2a$10$9RZF8dtbRe2KAcu7bnWeEe
+
+$2a$10$eoyfCOYSkzhAKHEgXgEPwu v9E19cQ2u1WKmNYZPwvzuL.MyK5/Tre
+$2a$10$eoyfCOYSkzhAKHEgXgEPwu
+
+Math.random() \* 40
