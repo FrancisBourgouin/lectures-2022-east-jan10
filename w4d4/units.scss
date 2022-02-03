@@ -1,0 +1,59 @@
+/* em, rem */
+
+$primary-color: lightbrown;
+
+body {
+  font-size: 30px;
+}
+
+section {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2em;
+  color: $primary-color;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.25em;
+  color: $primary-color;
+}
+
+article {
+  font-size: 1em;
+
+  border: 0.2em solid black;
+  border-color: $primary-color;
+  border-radius: 0.5em;
+  padding: 1em;
+
+  &.featured {
+    font-size: 1.2em;
+  }
+
+  &:hover {
+    background-color: aquamarine;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+    /* 
+    min-width: 300px;
+    width: 100%;
+    max-width: 70ch; */
+
+    width: clamp(300px, 100%, 70ch);
+
+    transform: rotate(180deg);
+    /* -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg); */
+  }
+}

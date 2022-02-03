@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      :root {
+        --primary-color: #bada55;
+        --secondary-color: white;
+      }
+
+      body {
+        font-size: 50px;
+        background-color: var(--secondary-color);
+      }
+
+      p {
+        color: var(--primary-color);
+        padding: 1em;
+        border: 1em solid var(--primary-color);
+      }
+    </style>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi placeat corporis
+      et est deleniti asperiores quae modi in exercitationem laboriosam! Odit dolores
+      delectus, cupiditate sequi hic illum sint dolorem numquam.
+    </p>
+
+    <script>
+      const changeColor = () => {
+        const r = Math.floor(Math.random() * 255);
+        const g = Math.floor(Math.random() * 255);
+        const b = Math.floor(Math.random() * 255);
+
+        const r1 = Math.floor(Math.random() * 255);
+        const g1 = Math.floor(Math.random() * 255);
+        const b1 = Math.floor(Math.random() * 255);
+
+        const color = `rgb(${r}, ${g}, ${b})`;
+        const color1 = `rgb(${r1}, ${g1}, ${b1})`;
+
+        document.documentElement.style.setProperty("--primary-color", color);
+        document.documentElement.style.setProperty("--secondary-color", color1);
+      };
+
+      document.addEventListener("click", changeColor);
+    </script>
+  </body>
+</html>

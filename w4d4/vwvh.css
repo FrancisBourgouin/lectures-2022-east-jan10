@@ -1,0 +1,41 @@
+/* vw, vh, vmin, vmax */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 60vmin;
+  height: 60vmin;
+  background-color: #b0b;
+
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+div:hover {
+  animation: wiggle 1s 0s ease-in-out infinite;
+  background-color: #bada55;
+  width: 30vmin;
+  height: 30vmin;
+}
+
+@keyframes wiggle {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 0;
+  }
+}
