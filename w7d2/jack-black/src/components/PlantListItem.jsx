@@ -2,6 +2,7 @@ import "./PlantListItem.css";
 
 export default function PlantListItem(props) {
   const { name, type, lastWatered, wateringInterval } = props;
+  // const { name } = props
 
   const calculateDayDifference = (lastWatered) => {
     const today = new Date();

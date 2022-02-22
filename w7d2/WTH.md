@@ -1,12 +1,12 @@
 # What was hard
 
-- Props ?!?
-- Curly brackets
-- EVENTS !
-- Controlled Components
+- X Props ?!?
+- X Curly brackets
+- X Controlled Components
 - State (Lecture about it tomorrow!)
 - Console.log is weird!
 - Scope
+- EVENTS !
 
 # JSX ?
 
