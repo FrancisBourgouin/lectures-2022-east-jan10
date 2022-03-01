@@ -2,6 +2,7 @@ import "./App.scss";
 import CoffeeDrinkForm from "./components/CoffeeDrinkForm";
 import CoffeeDrinkList from "./components/CoffeeDrinkList";
 import useCoffeeDrinks from "../hooks/useCoffeeDrinks";
+
 function App() {
   const { coffeeDrinkListData, addCoffeeDrink } = useCoffeeDrinks();
 

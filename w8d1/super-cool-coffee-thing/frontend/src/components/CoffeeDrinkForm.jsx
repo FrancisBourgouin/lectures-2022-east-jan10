@@ -24,6 +24,7 @@ export default function CoffeeDrinkForm(props) {
 
     return () => document.removeEventListener("click", watch);
   });
+
   const handleChange = (event) => {
     const { name, value } = event.target;
 
